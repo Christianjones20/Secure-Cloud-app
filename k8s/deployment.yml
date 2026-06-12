@@ -21,3 +21,9 @@ spec:
         image: ghcr.io/christianjones20/secure-cloud-app:latest
         ports:
         - containerPort: 5000
+        securityContext:
+          allowPrivilegeEscalation: false
+          runAsNonRoot: true
+          capabilities:
+            drop:
+              - ALL
