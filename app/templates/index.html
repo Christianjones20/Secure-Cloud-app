@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Cloud Infrastructure Project</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="hero">
+            <p class="eyebrow">Cloud Engineering • DevSecOps • Azure Kubernetes Service</p>
+            <h1>Secure Cloud Infrastructure Project</h1>
+            <p class="subtitle">
+                A containerized Flask application deployed to Azure Kubernetes Service using Docker,
+                GitHub Actions, GHCR, Terraform, and Kubernetes security controls.
+            </p>
+        </section>
+
+        <section class="status-card">
+            <div>
+                <h2>Application Status</h2>
+                <p class="status">Healthy & Running</p>
+            </div>
+            <div class="meta">
+                <p><strong>Environment:</strong> {{ environment }}</p>
+                <p><strong>Version:</strong> {{ app_version }}</p>
+                <p><strong>Server Time:</strong> {{ server_time }}</p>
+            </div>
+        </section>
+
+        <section class="grid">
+            <div class="card">
+                <h3>Cloud Platform</h3>
+                <ul>
+                    <li>Azure Kubernetes Service</li>
+                    <li>Azure Load Balancer</li>
+                    <li>Azure Monitor</li>
+                    <li>Azure Key Vault</li>
+                    <li>Azure Policy for AKS</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>DevOps Pipeline</h3>
+                <ul>
+                    <li>GitHub Actions CI/CD</li>
+                    <li>Docker Image Builds</li>
+                    <li>GitHub Container Registry</li>
+                    <li>Terraform Plan Workflow</li>
+                    <li>Automated AKS Deployment</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Security Controls</h3>
+                <ul>
+                    <li>Trivy Vulnerability Scanning</li>
+                    <li>Non-Root Containers</li>
+                    <li>Privilege Escalation Disabled</li>
+                    <li>Linux Capabilities Dropped</li>
+                    <li>Kubernetes Network Policies</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Kubernetes Reliability</h3>
+                <ul>
+                    <li>Readiness Probes</li>
+                    <li>Liveness Probes</li>
+                    <li>Resource Requests</li>
+                    <li>Resource Limits</li>
+                    <li>Rolling Updates</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="architecture">
+            <h2>Architecture Flow</h2>
+            <div class="flow">
+                <span>GitHub</span>
+                <span>→</span>
+                <span>GitHub Actions</span>
+                <span>→</span>
+                <span>GHCR</span>
+                <span>→</span>
+                <span>AKS</span>
+                <span>→</span>
+                <span>Public App</span>
+            </div>
+        </section>
+
+        <footer>
+            Designed and built by Chris Jones • Cloud Infrastructure | Cloud Security
+        </footer>
+    </main>
+</body>
+</html>
