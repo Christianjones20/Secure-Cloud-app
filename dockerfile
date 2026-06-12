@@ -11,7 +11,7 @@ COPY  app/ .
 EXPOSE 5000
 
 RUN adduser --disabled-password --gecos "" appuser
-USER appuser
+USER 10001
 
 CMD ["python", "app.py"]
 
